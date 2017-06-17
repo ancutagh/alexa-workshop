@@ -12,6 +12,8 @@
             alexa.registerHandlers(handlers);
             alexa.execute();
         };
+        
+        // ADD CONSTANTS HERE
 
         var handlers = {
             'LaunchRequest': function () {
@@ -21,7 +23,11 @@
             'MyIntent': function () {
                 this.emit(':tell', 'Hello World from Alexa!');
             }
+            
+            // ADD MORE HANDLERS HERE
         };
+        
+        // ADD HELPER FUNCTIONS HERE
 
 ## Step 2: Conversation with Alexa
 
