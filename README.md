@@ -44,6 +44,7 @@
           'Unhandled': function() {
                   this.emit(':ask', 'Sorry, I didn\'t get that. Try asking.', 'Try asking.');
           }
+        }
   
   ## Step 3: Add Joke intent for Alexa to respond 
   
