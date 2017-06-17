@@ -1,5 +1,4 @@
-# alexa-workshop
-Alexa workshop for GWC
+# Alexa workshop for GWC
 
 ## Step 1: LaunchIntent redirected to one intent
 
