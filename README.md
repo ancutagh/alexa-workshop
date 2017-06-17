@@ -3,7 +3,7 @@
 ## Step 1: LaunchIntent redirected to one intent
 
 1. Create a skill in developer portal and add one intent 'MyIntent'
-2. Create a Lambda function with alexa-sdk-fact skill 
+2. Create a Lambda function with alexa-skills-kit-color-expert blueprint
 
         var Alexa = require('alexa-sdk');
 
