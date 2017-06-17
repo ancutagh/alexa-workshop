@@ -2,7 +2,11 @@
 
 ## Step 1: LaunchIntent redirected to one intent
 
-1. Create a skill in developer portal and add one intent 'MyIntent'
+1. Create a skill in developer portal 
+
+ - add one intent 'MyIntent'
+ - Configure sample utterance 'say hello'
+ 
 2. Create a Lambda function with alexa-skills-kit-color-expert blueprint
 
         var Alexa = require('alexa-sdk');
@@ -43,7 +47,7 @@
   
   ## Step 3: Add Joke intent for Alexa to respond 
   
-  1. Create new intents in developer portal
+  1. Create new intents in developer portal with multiple sample utterances
   
   - JokeIntent  
   - FactIntent
@@ -68,6 +72,7 @@
   
   ## Step 4: Add random jokes or facts
   
+  
   1. Add the helper method
   
  
@@ -78,7 +83,7 @@
                 return(myData[i]);
             }
 
-2. Update handlers
+  2. Update handlers
 
          /*
            Alexa, ask <invocation_name> for a fact
