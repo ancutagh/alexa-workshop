@@ -104,6 +104,8 @@
                 this.emit(':tell', randomPhrase(jokes_array));
            },
 
+3. Add string constants
+
          const languageStrings = {
                      FACTS: [
                          'A year on Mercury is just 88 days long.',
