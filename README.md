@@ -104,22 +104,22 @@
                 this.emit(':tell', randomPhrase(jokes_array));
            },
 
-        const languageStrings = {
-                    FACTS: [
-                        'A year on Mercury is just 88 days long.',
-                        'Fact 2'
-                    ],
-                    JOKES: [ // jokes from http://www.funology.com/outer-space-jokes/
-                        'What is a spaceman’s favorite chocolate?<break time=\"1s\"/> A marsbar!',
-                        'Joke 2'
-                    ],
-                    TRIP_INTRO: ["Let's go travelling!"],
-                    HELP_MESSAGE: 'This is a skill for GWC... What can I help you with?',
-                    HELP_REPROMPT: 'What can I help you with?',
-                    STOP_MESSAGE: 'Goodbye!',
-                    LAUNCH_MESSAGE: 'Welcome. I know facts and I even know a joke.',
-                    LAUNCH_MESSAGE_REPROMPT: 'Try asking me to tell you something about world.'
-        };
+         const languageStrings = {
+                     FACTS: [
+                         'A year on Mercury is just 88 days long.',
+                         'Fact 2'
+                     ],
+                     JOKES: [ // jokes from http://www.funology.com/outer-space-jokes/
+                         'What is a spaceman’s favorite chocolate?<break time=\"1s\"/> A marsbar!',
+                         'Joke 2'
+                     ],
+                     TRIP_INTRO: ["Let's go travelling!"],
+                     HELP_MESSAGE: 'This is a skill for GWC... What can I help you with?',
+                     HELP_REPROMPT: 'What can I help you with?',
+                     STOP_MESSAGE: 'Goodbye!',
+                     LAUNCH_MESSAGE: 'Welcome. I know facts and I even know a joke.',
+                     LAUNCH_MESSAGE_REPROMPT: 'Try asking me to tell you something about world.'
+         };
 
 ## Step 5: Plan my trip: fromCity, toCity, travelDate, activity, travelMode
 
