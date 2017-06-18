@@ -217,6 +217,7 @@ See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jok
             //we didn't get a value in the slot.
             return false;
         }
+    }
 
 ## Last step: cancel, stop, session ended intents
 
