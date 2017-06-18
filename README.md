@@ -127,7 +127,12 @@ See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jok
          
 ## Step 5: build your own intent
 
-## Step 6: Plan my trip: fromCity, toCity, travelDate, activity, travelMode
+## Step 6: Plan my trip: 
+
+Define slots 
+- mandatory: fromCity (AMAZON.US_CITY), toCity (AMAZON.US_CITY), travelDate (AMAZON.DATE)
+- optional activity, travelMode
+
     //CONSTANTS
                      TRIP_INTRO: ["Let's go travelling!"],
 
