@@ -32,6 +32,8 @@
         };
         
         // ADD HELPER FUNCTIONS HERE
+        
+See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-1-LaunchIntent-code
 
 ## Step 2: Conversation with Alexa
 
@@ -45,6 +47,8 @@
                   this.emit(':ask', 'Sorry, I didn\'t get that. Try asking.', 'Try asking.');
           }
         }
+        
+See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-2-Begin-conversation
   
   ## Step 3: Add Joke intent for Alexa to respond 
   
@@ -70,6 +74,8 @@
           'JokeIntent' : function () {
                 this.emit(':tell', 'Chuck Norris calls David Guetta and asks him: David, what do you mean by the world is mine?');
            },
+           
+  See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-3-Joke-and-Fact-intents
   
   ## Step 4: Add random jokes or facts
   
@@ -122,8 +128,12 @@
                      LAUNCH_MESSAGE: 'Welcome. I know facts and I even know a joke.',
                      LAUNCH_MESSAGE_REPROMPT: 'Try asking me to tell you something about world.'
          };
+         
+See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jokes-and-factsc
+         
+## Step 5: build your own intent
 
-## Step 5: Plan my trip: fromCity, toCity, travelDate, activity, travelMode
+## Step 6: Plan my trip: fromCity, toCity, travelDate, activity, travelMode
 
      /*
         Alexa, ask <invocation_name> to plan my trip
