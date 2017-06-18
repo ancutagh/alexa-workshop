@@ -128,6 +128,8 @@ See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jok
 ## Step 5: build your own intent
 
 ## Step 6: Plan my trip: fromCity, toCity, travelDate, activity, travelMode
+    //CONSTANTS
+                     TRIP_INTRO: ["Let's go travelling!"],
 
      /*
         Alexa, ask <invocation_name> to plan my trip
@@ -234,9 +236,7 @@ See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jok
       },
       
       //CONSTANTS
-                     TRIP_INTRO: ["Let's go travelling!"],
+         
                      HELP_MESSAGE: 'This is a skill for GWC... What can I help you with?',
                      HELP_REPROMPT: 'What can I help you with?',
-                     STOP_MESSAGE: 'Goodbye!',
-                     LAUNCH_MESSAGE: 'Welcome. I know facts and I even know a joke.',
-                     LAUNCH_MESSAGE_REPROMPT: 'Try asking me to tell you something about world.'
+                     STOP_MESSAGE: 'Goodbye!'
