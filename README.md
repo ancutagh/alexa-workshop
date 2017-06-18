@@ -123,7 +123,7 @@ See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-2-Begin-conv
                      ]
          };
          
-See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jokes-and-factsc
+See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jokes-and-facts
          
 ## Step 5: build your own intent
 
