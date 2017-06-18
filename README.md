@@ -223,6 +223,8 @@ Define slots
             return false;
         }
     }
+    
+See full code https://github.com/ancutagh/alexa-workshop/wiki/Step-6-Plan-my-trip
 
 ## Last step: cancel, stop, session ended intents
 
