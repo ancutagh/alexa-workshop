@@ -134,7 +134,7 @@ See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jok
      /*
         Alexa, ask <invocation_name> to plan my trip
         OR
-        Alexa, ask <invocation_name> to have a conversation
+        Alexa, ask <invocation_name> to say hello
             Plan my trip
         OR
         Alexa, open <invocation_name>
