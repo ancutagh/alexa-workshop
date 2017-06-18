@@ -120,13 +120,7 @@ See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-2-Begin-conv
                      JOKES: [ // jokes from http://www.funology.com/outer-space-jokes/
                          'What is a spaceman’s favorite chocolate?<break time=\"1s\"/> A marsbar!',
                          'Joke 2'
-                     ],
-                     TRIP_INTRO: ["Let's go travelling!"],
-                     HELP_MESSAGE: 'This is a skill for GWC... What can I help you with?',
-                     HELP_REPROMPT: 'What can I help you with?',
-                     STOP_MESSAGE: 'Goodbye!',
-                     LAUNCH_MESSAGE: 'Welcome. I know facts and I even know a joke.',
-                     LAUNCH_MESSAGE_REPROMPT: 'Try asking me to tell you something about world.'
+                     ]
          };
          
 See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jokes-and-factsc
@@ -238,3 +232,11 @@ See full code: https://github.com/ancutagh/alexa-workshop/wiki/Step-4-Random-jok
       'SessionEndedRequest': function () {
           this.emit(':tell', languageStrings.STOP_MESSAGE);
       },
+      
+      //CONSTANTS
+                     TRIP_INTRO: ["Let's go travelling!"],
+                     HELP_MESSAGE: 'This is a skill for GWC... What can I help you with?',
+                     HELP_REPROMPT: 'What can I help you with?',
+                     STOP_MESSAGE: 'Goodbye!',
+                     LAUNCH_MESSAGE: 'Welcome. I know facts and I even know a joke.',
+                     LAUNCH_MESSAGE_REPROMPT: 'Try asking me to tell you something about world.'
