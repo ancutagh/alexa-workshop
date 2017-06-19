@@ -208,7 +208,7 @@ Define slots
         }
     }
 
-    function isSlotValid(request, slotName){
+      function isSlotValid(request, slotName){
         var slot = request.intent.slots[slotName];
         //console.log("request = "+JSON.stringify(request)); //uncomment if you want to see the request
         var slotValue;
