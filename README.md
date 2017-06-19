@@ -186,8 +186,8 @@ Define slots
         // Helper functions
 
         function delegateSlotCollection(){
-      console.log("in delegateSlotCollection");
-      console.log("current dialogState: "+this.event.request.dialogState);
+         console.log("in delegateSlotCollection");
+         console.log("current dialogState: "+this.event.request.dialogState);
         if (this.event.request.dialogState === "STARTED") {
           console.log("in Beginning");
           var updatedIntent=this.event.request.intent;
