@@ -133,10 +133,10 @@ Define slots
 - mandatory: fromCity (AMAZON.US_CITY), toCity (AMAZON.US_CITY), travelDate (AMAZON.DATE)
 - optional activity, travelMode
 
-    //CONSTANTS
+      //CONSTANTS
                      TRIP_INTRO: ["Let's go travelling!"],
 
-     /*
+      /*
         Alexa, ask <invocation_name> to plan my trip
         OR
         Alexa, ask <invocation_name> to say hello
@@ -145,7 +145,7 @@ Define slots
         Alexa, open <invocation_name>
         Alexa: Do you want to hear ... ?
         => Plan my trip
-     */
+      */
        'PlanMyTrip': function () {
             //delegate to Alexa to collect all the required slot values
             delegateSlotCollection.call(this);
