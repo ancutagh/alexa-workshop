@@ -135,7 +135,7 @@ Define slots
 - optional activity, travelMode
 
       //CONSTANTS
-                     TRIP_INTRO: ["Let's go travelling!"],
+      TRIP_INTRO: ["Let's go travelling!"];
 
       /*
         Alexa, ask <invocation_name> to plan my trip
@@ -152,8 +152,9 @@ Define slots
             delegateSlotCollection.call(this);
 
             // define the intro of the speechOutput
-            const tripIntro_array = languageStrings.TRIP_INTRO;
-            var speechOutput = randomPhrase(tripIntro_array);
+            //const tripIntro_array = languageStrings.TRIP_INTRO;
+            //var speechOutput = randomPhrase(tripIntro_array);
+            var speechOutput = "Plan your trip. ";
 
             //compose speechOutput that simply reads all the collected slot values
 
