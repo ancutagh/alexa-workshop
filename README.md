@@ -8,6 +8,7 @@
  - Configure sample utterance: for example 'say hello'
  
 2. Create a Lambda function, click on blueprints, select alexa-skill-kit-sdk-factskill blueprint and region N. Virginia(us-east-1)
+Designer -> click on 
 
         var Alexa = require('alexa-sdk');
 
