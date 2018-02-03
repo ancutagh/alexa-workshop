@@ -243,7 +243,7 @@ See full code https://github.com/ancutagh/alexa-workshop/wiki/Step-6-Plan-my-tri
       },
       'SessionEndedRequest': function () {
           this.emit(':tell', languageStrings.STOP_MESSAGE);
-      },
+      }
       
       //CONSTANTS
          
